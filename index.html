@@ -1,0 +1,58 @@
+<!-- Ładowanie paska przewinięcia strony przy sqrollowaniu -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .add,
+    .clean,
+    .showAdvice,
+    .showOptions {
+      line-height: 30px;
+      width: 120px;
+      margin: 20px 20px;
+    }
+
+    form>input {
+      line-height: 30px;
+      margin: 20px 20px;
+      padding-left: 5px;
+      width: 30vw;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="">
+    <label>Dodaj możliwości: </label><input type="text">
+    <button class="add">Dodaj</button>
+    <button class="clean">Resetuj</button>
+  </form>
+  <h2>Komputerze kochany, pokaż co mam zrobić z tym o czym myślę...</h2>
+  <button class="showAdvice">Pokaż radę</button>
+  <button class="showOptions">Pokaż możliwości</button>
+  <h1></h1>
+  <p></p>
+  <!-- <div></div> -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
